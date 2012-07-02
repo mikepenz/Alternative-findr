@@ -8,9 +8,9 @@ This project provides you with some useful Android basics like:
 	ViewPagerIndicator
 	Android Widgets
 
-![Screenshot](https://github.com/mikepenz/android-alternativefindr/raw/master/alternativefindr.png)
+![Screenshot](https://github.com/mikepenz/Alternative-findr/raw/master/alternativefindr.png)
 
-Repository at <https://github.com/mikepenz/android-alternativefindr>.
+Repository at <https://github.com/mikepenz/Alternative-findr>.
 
 
 
