@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="listValues_sections">
+		<item>@string/alt_popular</item>
+		<item>@string/alt_recent</item>
+		<item>@string/alt_likes</item>
+		<item>@string/alt_views</item>
+	</string-array>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="alternativeto_text_selecteddark">#000</color>
+    <color name="alternativeto_text_dark">#050505</color>
+    
+    <color name="alternativeto_lightgrey">#f5f5f5</color>
+    <color name="alternativeto_lightmediumgrey">#efefef</color>
+    <color name="alternativeto_mediumgrey">#d1d1d1</color>
+    <color name="alternativeto_mediumdarkgrey">#a6a6a6</color>
+    <color name="alternativeto_darkgrey">#8f8f8f</color>
+    
+    <color name="alternativeto_lightblue">#9ee2ff</color>
+    <color name="alternativeto_lightmediumblue">#3366a9</color>
+    <color name="alternativeto_mediumblue">#346d8c</color>
+    <color name="alternativeto_mediumdarkblue">#1c536c</color>
+    <color name="alternativeto_darkblue">#244c61</color>
+    
+    
+	<color name="focused_alternative">#882295bf</color>
+	<color name="pressed_alternative">#CC2295bf</color>
+</resources>
+

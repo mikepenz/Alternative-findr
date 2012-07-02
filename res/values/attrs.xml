@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<attr name="cbackground" format="reference" />
+	<attr name="titlepageindicator" format="reference"/>
+	<attr name="tabpageindicator" format="reference"/>
+	<attr name="darktext" format="reference"/>
+	<attr name="whitetext" format="reference" />
+	<attr name="darkbluetext" format="reference"/>
+</resources>

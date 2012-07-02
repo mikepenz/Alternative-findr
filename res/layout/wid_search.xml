@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleType="fitCenter"
+    android:src="@drawable/ic_launcher"
+    android:layout_margin="8dp"
+    android:id="@+id/wid_search_button"
+	/>
+<!-- 
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/alternativeto_mediumblue"
+    android:layout_margin="8dp"
+    android:padding="8dp" >
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+        <ImageView
+            android:layout_margin="10dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/ic_launcher" />
+        <TextView
+            android:id="@+id/wid_search_edittext"
+            android:layout_width="0dp"
+            android:layout_weight="1" 
+            android:layout_height="match_parent"/>
+        <ImageButton
+            android:layout_margin="10dp"
+            android:background="@android:color/transparent"
+            android:id="@+id/wid_search_button"
+            android:layout_width="48dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_action_search" />
+    </LinearLayout>
+
+</RelativeLayout> -->

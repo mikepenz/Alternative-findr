@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Alternative findr</string>
+    
+    <string name="item_ext_search">Detailed Search</string>
+    <string name="item_search">Search</string>
+    <string name="item_refresh">Refresh</string>
+    <string name="item_info">Info</string>
+    <string name="item_about">About</string>
+    <string name="item_external">External Link</string>
+    <string name="item_share">Share</string>
+    
+    <string name="alt_popular">Popular</string>
+    <string name="alt_recent">Recent</string>
+    <string name="alt_likes">Likes</string>
+    <string name="alt_views">Views</string>
+    
+    <string name="alt_all">All</string>
+    <string name="alt_alt">Alternatives</string>
+    <string name="alt_descr">Description</string>
+    <string name="alt_detail">Details</string>
+    <string name="alt_search">Search</string>
+    <string name="alt_widsearch">Search on alternative findr</string>
+    
+    <string name="alt_sharenow">Share this application now!</string>
+    <string name="alt_sharesubject">Really cool app to discover new software!</string>
+    <string name="alt_sharebody">I have found a really cool app to discover and find new software.\nhttps://play.google.com/store/apps/details?id=com.tundem.alternativefindr\n\nPrefer websites? Click here: http://alternativeto.net</string>
+    <string name="alt_foundwith">(Found with the great alternativeto.net Android Client!)</string>
+    
+    <string name="alt_platforms">Platforms</string>
+    <string name="alt_tags">Tags</string>
+    
+    <string name="search_hint">Search alternativenet.to</string>
+    
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="sure">Do you really want to exit this now?</string>
+    <string name="info">Information</string>
+    
+    <string name="somethingwrong">Something went wrong. Please try it again!</string>
+    
+    <string name="nointernet">Some functions are disabled! It is recommended to establish an internet connection!</string>
+	<string name="notimplementedyet">This feature is coming soon. Stay tuned!</string>
+   	
+    <string name="pull_to_refresh_pull_label">PullL to refresh &#8230;</string>
+    <string name="pull_to_refresh_release_label">Release to refresh &#8230;</string>
+    <string name="pull_to_refresh_refreshing_label">Loading &#8230;</string>
+    <string name="pull_to_refresh_tap_label">Tap to refresh &#8230;</string>
+	
+    <string name="crash_notif_ticker_text">Unerwarteter Fehler, bitte Fehlerreport senden &#8230;</string>
+	<string name="crash_notif_title">Die App hatte einen Fehler &#8230;</string>
+	<string name="crash_notif_text">Klicken Sie hier um beim lösen des Fehlers zu helfen.</string>
+	<string name="crash_dialog_text">Es ist ein unerwarteter Fehler aufgetreten der die App beendet hat
+	    Bitte helfen Sie mit beim Lösen des Problems! Klicken Sie einfach auf \'OK\'.</string>
+	<string name="crash_dialog_comment_prompt">Sie können hier eine Beschreibung des Problems eintragen:</string>
+	<string name="crash_dialog_email_prompt">Wenn Sie hier Ihre E-Mail eintragen können wir Ihnen direkt Antworten:</string>
+	<string name="crash_dialog_ok_toast">Vielen Dank!</string>
+	
+	<string name="abouttext">
+	    <![CDATA[
+	    <br /><br /><br />
+	    <h1>Copyright</h1>
+	    <p>(c) 2012 - Mike Penz
+	    <br /><a href=\"http://penz.tundem.com\">http://penz.tundem.com</a>
+	    <br /><a href=\"https://twitter.com/#!/mike_penz\">Twitter</a> - <a href=\"https://plus.google.com/u/0/102816248419100947174/posts\">Google Plus</a>
+	    </p>
+	    <p>
+	    	Tundem Media Group - <a href=\"http://tundem.com\">http://tundem.com</a>
+	    </p>
+	    
+	    <h1>About This App</h1>
+	    <p>I do lots of creative stuff in my freetime, including Android projects.</p>
+	    <p><a href=\"http://alternativeto.net\">alternativeto.net</a> is one of the first sources, if i am searching for new apps, for a while now.</p>
+	    <p>After a quick search on the Goolge Play Store, i decided to make a complete client for <a href=\"http://alternativeto.net\">alternativeto.net</a>, including all techniques i learned the last few months.</p>
+	    <p>The whole app features the awesome new Holo-Design from Google, with some small modifications.</p>
+	    
+	    <h1>Used Libraries</h1>
+	    <p>One very important criterium for me is always the downcompatiblity of my apps.</p>
+	    <p>To be able to offer the app for Android Devices lower than Android v4.0.4 (Ice Cream Sandwhich) i decided to use the great libraries from Jake Wharton (<a href=\"https://plus.google.com/108284392618554783657/posts\">His gplus profile!</a>).
+	    <br />I used the following projects:
+	    <br /><strong>ActionBarSherlock</strong> - <a href=\"http://actionbarsherlock.com/\">actionbarsherlock.com</a>
+	    <br /><strong>ViewPagerIndicator</strong> - <a href=\"http://viewpagerindicator.com/\">viewpagerindicator.com</a>
+	    <br /><strong>NineOldAndroids</strong> - <a href=\"http://nineoldandroids.com/\">nineoldandroids.com</a>
+	    </p>
+	    <p>
+	    To offer a second method to refresh the ListView i used this library:
+	    <br /><strong>Pull-To-Refresh</strong> - <a href=\"https://github.com/chrisbanes/Android-PullToRefresh\">github.com/chrisbanes/Android-PullToRefresh</a>
+	    </p>
+	    <p>
+	    I also used these libraries:
+	    <br /><strong>WebImage</strong> - <a href=\"https://github.com/wrapp/WebImage-Android\">github.com/wrapp/WebImage-Android</a>
+	    <br /><strong>ACRA</strong> - <a href=\"http://code.google.com/p/acra/\">code.google.com/p/acra</a>
+	    <br /><strong>Gson</strong> - <a href=\"http://code.google.com/p/google-gson/\">code.google.com/p/google-gson</a>
+	    </p>
+	   ]]>
+	</string>
+	
+	<string name="infotext">
+	    <![CDATA[
+	     <br /><br /><br />
+	    <h1>About AlternativeTo.net</h1>
+	    <p>We have one mission: helping you find the right software for your computer, mobile phone or tablet. Our main focus is to give you alternatives to software you already know and want to replace.</p>
+		<p>Based on our users recommendations we list great alternatives to the applications you want to replace. By joining the site you can participate in the process of making these recommendations better, so please join in!</p>
+		<h1>About the authors</h1>
+		<p><strong>Ola</strong> - Hello! I take care of the development and other tech stuff on AlternativeTo. - <a href=\"https://twitter.com/#!/_olaj\">twitter.com/#!/_olaj</a></p>
+		<p><strong>Markus</strong> - Hello I am a Mac, with a serious App Store addiction. Taking care of the design, social media and business stuff. - <a href=\"https://twitter.com/#!/raawmarkus\">twitter.com/#!/raawmarkus</a></p>
+	   	<h1>Stay updated</h1>
+	   	<p>The best way to follow and talk with us is to subscribe to our blog at <a href=\"http://blog.alternativeto.net\">http://blog.alternativeto.net</a> or <a href=\"http://twitter.com/alternativeto\">@AlternativeTo</a> on Twitter.</p>
+	    <h1>API</h1>
+	    <p>Get data from us via our API. Read more <a href=\"http://alternativeto.net/api\">about our API</a>.</p>
+	    <h1>Widget and Plugins</h1>
+		<p>Show what you like. Or promote your application on AlternativeTo. Read more <a href=\"http://alternativeto.net/widgets\">plugins and widgets</a>.</p>
+	   	<h1>Terms & Privacy policy</h1>
+		<p>AlternativeTo knows that you care about how your personal information is used and shared, and we take your privacy very seriously. Read our <a href=\"http://alternativeto.net/privacy\">Terms and Privacy Policy</a>.</p>
+	    <h1>Contact us</h1>
+		<p>If you want to advertise or get in contact with us privately send an e-mail to <a href=\"mailto:hello@alternativeto.net\">hello@alternativeto.net</a>. For feedback on the site use our <a href=\"http://alternativeto.net/discussions\">Forums</a>.</p>
+	    ]]>
+	</string>
+</resources>

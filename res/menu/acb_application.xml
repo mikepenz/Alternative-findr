@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:icon="@drawable/ic_action_external"
+        android:id="@+id/item_external"
+        android:showAsAction="ifRoom"
+        android:title="@string/item_external"/>
+    <item
+        android:icon="@drawable/ic_action_share"
+        android:id="@+id/item_share"
+        android:showAsAction="ifRoom"
+        android:title="@string/item_share"/>
+</menu>

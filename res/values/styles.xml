@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- _________________________ -->
+    <!-- ________Background_______ -->
+    <!-- _________________________ -->
+    <style name="background_light">
+        <item name="android:background">@color/alternativeto_lightgrey</item>
+    </style>
+    
+    <!-- _________________________ -->
+    <!-- __________Texts__________ -->
+    <!-- _________________________ -->
+    <style name="darktext">
+        <item name="android:textColor">@color/alternativeto_text_dark</item>
+        <item name="android:shadowColor">#FFF</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    
+    <style name="whitetext">
+        <item name="android:textColor">#fff</item>
+        <item name="android:shadowColor">#000</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    
+    <style name="darkbluetext" parent="darktext">
+        <item name="android:textColor">@color/alternativeto_lightmediumblue</item>
+    </style>
+    
+    
+    <!-- _________________________ -->
+    <!-- ___TitlePageIndicator____ -->
+    <!-- _________________________ -->
+    <style name="titlepageindicator">
+        <item name="footerColor">@color/alternativeto_darkblue</item>
+        <item name="footerIndicatorHeight">3dp</item>
+        <item name="footerIndicatorStyle">underline</item>
+        <item name="footerLineHeight">2dp</item>
+        <item name="selectedBold">true</item>
+        <item name="android:textSize">12dp</item>
+        <item name="android:padding">5dp</item>
+    </style>
+
+    <style name="titlepageindicator_light" parent="titlepageindicator">
+        <item name="android:background">@color/alternativeto_mediumgrey</item>
+        <item name="selectedColor">@color/alternativeto_text_selecteddark</item>
+        <item name="android:textColor">@color/alternativeto_text_dark</item>
+        <item name="android:shadowColor">#FFF</item>
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">1</item>
+    </style>
+    
+    
+    <!-- _________________________ -->
+    <!-- ____TabPageIndicator_____ -->
+    <!-- _________________________ -->
+    <style name="tabpageindicator" parent="Widget.TabPageIndicator">
+        <item name="android:textColor">@color/alternativeto_text_dark</item>
+    </style>
+</resources>

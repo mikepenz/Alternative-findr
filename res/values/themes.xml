@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	 
+	 <!-- _________________________ -->
+    <!-- ________ActionBar________ -->
+    <!-- _________________________ -->
+    <style name="Theme.alternative" parent="@style/Theme.Sherlock.Light">
+        <!-- 
+		<item name="vpiCirclePageIndicatorStyle">@style/Widget.CirclePageIndicator</item>
+        <item name="vpiTitlePageIndicatorStyle">@style/Widget.TitlePageIndicator</item>
+         -->
+        <item name="vpiTabPageIndicatorStyle">@style/tabpageindicator</item>
+        
+    	<item name="cbackground">@style/background_light</item>
+    	<item name="whitetext">@style/whitetext</item>
+    	<item name="darktext">@style/darktext</item>
+    	<item name="darkbluetext">@style/darkbluetext</item>
+    	<item name="titlepageindicator">@style/titlepageindicator_light</item>
+        
+		<item name="actionBarItemBackground">@drawable/selectable_background_alternative</item>
+		<item name="popupMenuStyle">@style/alternative_PopupMenu</item>
+		<item name="dropDownListViewStyle">@style/alternative_DropDownListView</item>
+        <item name="actionBarTabStyle">@style/alternative_ActionBarTabStyle</item>
+        <item name="actionDropDownStyle">@style/alternative_DropDownNav</item>
+		<item name="actionBarStyle">@style/alternative_ActionBar</item>
+	
+		<item name="android:selectableItemBackground">@drawable/selectable_background_alternative</item>
+		<item name="android:popupMenuStyle">@style/alternative_PopupMenu</item>
+		<item name="android:dropDownListViewStyle">@style/alternative_DropDownListView</item>
+        <item name="android:actionBarTabStyle">@style/alternative_ActionBarTabStyle</item>
+        <item name="android:actionDropDownStyle">@style/alternative_DropDownNav</item>
+		<item name="android:actionBarStyle">@style/alternative_ActionBar</item>
+		
+		<!-- <item name="android:spinnerStyle">@style/Widget.Spinner</item>
+		<item name="android:editTextStyle">@style/Widget.EditText</item>
+		<item name="android:buttonStyle">@style/Widget.Button</item> -->
+	</style>
+	
+    <style name="alternative_ActionBar" parent="@style/Widget.Sherlock.Light.ActionBar">
+    	<item name="background">@drawable/ab_solid_alternative</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_alternative</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_alternative</item>
+    
+        <item name="android:background">@drawable/ab_solid_alternative</item>
+        <item name="android:backgroundStacked">@drawable/ab_stacked_solid_alternative</item>
+        <item name="android:backgroundSplit">@drawable/ab_bottom_solid_alternative</item>
+    </style>
+	
+	<style name="alternative_PopupMenu" parent="@android:style/Widget.Holo.Light.ListPopupWindow">
+		<item name="android:popupBackground">@drawable/menu_dropdown_panel_alternative</item>	
+	</style>
+	
+	<style name="alternative_DropDownListView" parent="@style/Widget.Sherlock.ListView.DropDown">
+		<item name="android:listSelector">@drawable/selectable_background_alternative</item>
+	</style>
+
+    <style name="alternative_ActionBarTabStyle" parent="@style/Widget.Sherlock.Light.ActionBar.TabView">
+    	<item name="background">@drawable/tab_indicator_ab_alternative</item>
+    
+        <item name="android:background">@drawable/tab_indicator_ab_alternative</item>
+    </style>
+	
+	<style name="alternative_DropDownNav" parent="@style/Widget.Sherlock.Light.Spinner.DropDown.ActionBar">
+		<item name="background">@drawable/spinner_background_ab_alternative</item>
+	
+		<item name="android:background">@drawable/spinner_background_ab_alternative</item>
+		<item name="android:popupBackground">@drawable/menu_dropdown_panel_alternative</item>
+		<item name="android:dropDownSelector">@drawable/selectable_background_alternative</item>
+	</style>
+	
+	
+	<!-- 
+	<style name="Widget.Spinner" parent="android:Widget">
+		<item name="android:clickable">true</item>
+		<item name="android:background">@drawable/button_spinner</item>
+	</style>
+	
+	<style name="Widget.EditText" parent="@android:style/Widget.EditText">
+	 	<item name="android:clickable">true</item>
+	 	<item name="android:background">@drawable/input_normal</item>
+	</style>
+	
+	<style name="Widget.Button" parent="@android:style/Widget.Button">
+		<item name="android:background">@drawable/button_normal</item>
+	 	<item name="android:clickable">true</item>
+	</style>
+	
+	<style name="Widget.ButtonColor" parent="@android:style/Widget.Button">
+		<item name="android:background">@drawable/button_colored</item>
+	 	<item name="android:clickable">true</item>
+	</style>
+	 -->
+</resources>
