@@ -35,7 +35,6 @@ import com.tundem.alternativefindr.fragments.BaseFragment;
 import com.tundem.alternativefindr.fragments.adapter.AlternativesFragmentAdapter;
 import com.tundem.alternativefindr.storage.LicenseStorage;
 import com.tundem.alternativefindr.storage.PlatformStorage;
-import com.tundem.log.Lg;
 import com.tundem.utils.dialogs.CustomToast;
 import com.viewpagerindicator.PageIndicator;
 import com.viewpagerindicator.TitlePageIndicator;
@@ -83,15 +82,6 @@ public class AlternativefindrActivity extends SherlockFragmentActivity{
 		//Load licenses ;)
 		LicenseStorage ls = new LicenseStorage();
 		license = ls.readJSON();
-		
-		for(Platform p : platforms)
-		{
-			Lg.v(p.toString());
-		}
-		for(License l : license)
-		{
-			Lg.v(l.toString());
-		}
 		
 		if(platforms == null || license == null)
 		{
