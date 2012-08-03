@@ -22,10 +22,12 @@ import android.text.format.DateUtils;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 
 import com.actionbarsherlock.R;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
+import com.handmark.pulltorefresh.library.PullToRefreshBase;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.Mode;
 import com.handmark.pulltorefresh.library.PullToRefreshBase.OnRefreshListener2;
 import com.handmark.pulltorefresh.library.PullToRefreshListView;
@@ -68,16 +70,17 @@ public class AlternativesFragment extends BaseFragment {
 		pullToRefreshListView.setReleaseLabel("Load more...", Mode.PULL_UP_TO_REFRESH);
 		pullToRefreshListView.setPullLabel("Refresh", Mode.PULL_UP_TO_REFRESH);
 		
-		pullToRefreshListView.setOnRefreshListener(new OnRefreshListener2() {
+
+		pullToRefreshListView.setOnRefreshListener(new OnRefreshListener2<ListView>() {
 
 			@Override
-			public void onPullDownToRefresh() {
+			public void onPullDownToRefresh(PullToRefreshBase<ListView> refreshView) {
 				Lg.v("onRefresh");
 				executeDown();
 			}
 
 			@Override
-			public void onPullUpToRefresh() {
+			public void onPullUpToRefresh(PullToRefreshBase<ListView> refreshView) {
 				if (mApplicationFilter != null) {
 					DownloadMoreTasks task = new DownloadMoreTasks();
 					mApplicationFilter.setItemCount(mApplicationFilter.getItemCount() + mActCount);
