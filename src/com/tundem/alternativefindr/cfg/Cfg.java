@@ -24,7 +24,7 @@ public class Cfg {
 	public static int DEBUT_OUTPUT_VALUE = 6;
 
 	// API Statics
-	public static String API_URL = "http://api.alternativeto.net/";
+	public static String API_URL = "http://alternativeto.net/about/api/";
 	
 	// API Standard COUNT
 	public static int API_ITEMCOUNT = 10;
