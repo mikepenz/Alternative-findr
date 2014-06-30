@@ -1,3 +1,5 @@
+# DISCONTINUED
+
 # Alternative findr for Android
 
 This project provides you with some useful Android basics like:
